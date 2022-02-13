@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TEJAS TECH | SELECTION</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="TejasTech Company">
+    <meta name="keywords" content="webpage detailed">
+    <meta name="author" content="MKJ">
+    <title>TEJAS TECH | WELCOME</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+<style>
+    header{
+      background:#6abce3;
+      color:#483d8b;
+      min-height:80px;
+      border-bottom:#483d8b 3px solid;
+      padding:12px;
+      text-align:left;
+     
+    }
+    body{
+      background-color: rgba(106,188,227,0.3);
+      
+      } 
+    p {
+      
+      padding:2%;
+    }
+
+    /* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(255,255,255,0.8);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #808080;
+    text-align: center;
+    padding: 1.1% 2.1%;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    
+    color: black;
+}
+
+
+/*To make sticky header*/
+.header {
+  padding: 0px;
+  background: rgba(255,255,255,0.8);
+  color: #808080;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+/*SIDEBAR*/
+body,html,.row-offcanvas {
+  height:100%;
+}
+
+#sidebar {
+  width: inherit;
+  min-width: 200px;
+  max-width: 200px;
+  background-color:rgba(106,188,227,0.3);
+  float: left;
+  height:100%;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#main {
+  height:100%;
+  overflow:auto;
+}
+
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    width:calc(100% + 220px);
+  }
+    
+  .row-offcanvas-left
+  {
+    left: -220px;
+  }
+
+  .row-offcanvas-left.active {
+    left: 0;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+  }
+}
+.bold a {
+    float: left;
+    color: #0909090;
+    text-align: center;
+    padding: 1.1% 2.1%;
+    text-decoration: none;
+    font-size: 19px;
+    border-bottom-style: ridge;
+    border-color: #000000;
+}
+.bold a:hover {
+    background-color: #ddd;
+    color: black;
+}
+h1{
+      font-family: Georgia , serif;
+      font-style: italic;
+    }
+    a{
+          font-family: Georgia , serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+      <div id="branding">
+          <h1><img src="logo.jpg" width="50" height="50" alt="logo" ><span class="highlight">TEJAS TECH</span></h1>
+    </div>  
+    </header>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <div class="topnav">   <div class="header" id="myHeader">
+      <a class="active" href="index.html">Linking ideas with Technology</a>
+      <a class="active" href="index.html">HOME</a></div>
+      <a  href="about.html">ABOUT US</a>
+      <a href="services.html">SERVICES</a>
+      <a href="products.html">PRODUCTS</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="container">
+
+  
+  </div>
+</div><!--/row-offcanvas -->
+   <div class="row-offcanvas row-offcanvas-left">
+  <div id="sidebar" class="sidebar-offcanvas">\
+    <div class="bold">
+      <div class="col-md-12">
+        <h3>MENU</h3>
+        <ul class="nav nav-tabs nav-stacked">
+          
+         <li class="toc1" ><a data-toggle="tab" href="#pm"><span class="tocnumber">1</span> <span class="toctext">PRECISION MACHINING </span></a></li>
+          <li class="toc2"><a href="#pa"><span class="tocnumber">2</span> <span class="toctext">PRECISION ASSEMBLIES</span></a></li>
+          <li class="toc3"><a href="#pdgp"><span class="tocnumber">3</span> <span class="toctext">PROCESS DEVELOPMENTS & GENERATION OF PROCESS SHEETS </span></a></li>
+          <li class="toc4"><a href="#ddp"><span class="tocnumber">4</span> <span class="toctext">DESIGN AND DEVELOPMENTS OF PRODUCTS </span></a></li>
+          <li class="toc5"><a href="#tcs"><span class="tocnumber">5</span> <span class="toctext">TECHNICAL CONSULTANCY SERVICES </span></a></li>
+          <li class="toc6"><a href="#pd3p"><span class="tocnumber">6</span> <span class="toctext">PROTOTYPE DEVELOPMENT & 3D PRINTING </span></a></li>
+          <li class="toc7"><a href="#hr"><span class="tocnumber">7</span> <span class="toctext">HUMAN RESOURCES / MAN POWER PLACEMENTS </span></a>
+
+          </li>
+          <li class="toc8"><a href="#mp"><span class="tocnumber">8</span> <span class="toctext"> MAKERS PLACE </span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+      <div class="col-md-12">
+          <p class="visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
+          </p>
+           <div class="tab-content">
+            <div id="pm" class="tab-pane fade ">
+
+          <h2><span class="mw-headline" >PRECISION MACHINING<font size='3'><a href="#top">goto top</a></font></span></h2>
+  <p>Tejas Tech has a well-equipped machine shop with adequate accessories, Manned by well-experienced engineers and technicians to meet entire range of precision jobs and also acts as a liaison with many other industries to manufacture parts as per customer's specifications 
+  <table>
+    <tr>
+      <th>LIST OF Machineries</th>
+      <th></th>
+      
+    
+    </tr>
+  
+    <tr>
+      <td>CNC SHOP</td>
+      <td>CNC Lathe  Machine <br>
+        CNC Milling Machine  <br>
+        3 D printer  </td>
+    </tr>
+    
+    <tr>
+      <td>CONVENTIONAL SHOP</td>
+      <td>Lathe  Machine <br>
+        Milling Machine  <br>
+        Drilling  Machine  <br>
+        Cutting  Machine  <br>
+        Buffing  Machine  <br>
+        Matte finishing  Machine  <br>
+        Welding  Machine  
+        </td>
+    </tr>
+    <tr>
+      <td>OTHER UNDERTAKINGS</td>
+      <td>Surface treatment like anodizing plating etc <br>
+        TIG & MIG Welding <br>
+        Sheet metal fabrication  <br>
+        Non conventional machining 
+        </td>
+        
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th>LIST OF  Measuring Instruments </th>
+      
+      
+    
+    </tr>
+    <tr>
+      
+      <td>Profile Projector <br>
+        Surface Table <br>
+        Height Gauge  <br>
+        Vernier Callipers <br>
+        Micrometers <br>
+        Bore Gauges  
+        </td>
+        
+    </tr>
+    
+  </table>
+  </p></div>
+  <h2><span class="mw-headline" id="pa">PRECISION ASSEMBLIES<font size='3'><a href="#top">goto top</a></font></span></h2>
+  <p>We offer our services in assembly of detailed components to products, carry out stage inspection, check the functionality and packing as per customers requirements 
+  </p> 
+  <h2><span class="mw-headline" id="pdgp">PROCESS DEVELOPMENTS & GENERATION OF PROCESS SHEETS <font size='3'><a href="#top">goto top</a></font></span></h2>
+  <p>Our vast industry experience comes to your aid to perform preliminary and detailed design reviews. Our design consultancy services include: 
+  <ul>
+  <li>Use of industry experience in tool engineering to provide services for design of tool, jig and fixture </li>
+  <li>Process sheets for manufacturing and assembly - Generating process sheets for manufacturing of critical  components.</li>
+  <li>Exploded assembly sequence for catalog and product maintenance manuals - Generate explode view for assembly drawings incorporating 3D views, and surface models generated for BOM</li>
+  <li>Ability to perform preliminary and detailed design reviews as per customer's requirements</li>
+  </ul>
+  </p>
+  <h2><span class="mw-headline" id="ddp">DESIGN AND DEVELOPMENTS OF PRODUCTS<font size='3'><a href="#top">goto top</a></font> </span></h2>
+  <p>Tejas Tech leverages significant engineering and design skills to offer a range of Design consultancy and product development  services. Our highly skilled and dedicated team of professionals have notched up project experience of more than 200 engineering years. Coupled with strong links with senior industry professionals and effective employee resource management Tejas Tech  is perfectly positioned to solve your design and prototype  development problems.Our services are complemented by strict confidentiality and a keen sense of partnership in commitment plans of our customers 
+  </p>
+  <h2><span class="mw-headline" id="tcs">TECHNICAL CONSULTANCY SERVICES<font size='3'><a href="#top">goto top</a></font></span></h2>
+  <p>Tejas Tech extends design consultancy services that encompass value engineering exercises and fabrication and cost reduction reviews. We help to solve a wide variety of manufacturing  problems that help to reduce product cost raise quality and add values 
+  </p>
+  <h2><span class="mw-headline" id="pd3p">PROTOTYPE DEVELOPMENT & 3D PRINTING<font size='3'><a href="#top">goto top</a></font></span></h2>
+  <p>We offer 3D printing / rapid prototyping service to convert product designs  to reality in short time. It is very useful in checking assembly interference, concept proving and clarity for customers. Maximum size of the components is 300x300x300mm 
+  </p>
+  <h2><span class="mw-headline" id="hr"> HUMAN RESOURCES / MAN POWER PLACEMENTS<font size='3'><a href="#top">goto top</a></font> </span></h2>
+  <p>As part of our end-to-end offerings in the design and engineering space, we help to meet requirements for technical manpower. Our manpower consultancy is fuelled by the dedication to match the right person with the right job in a systematic manner 
+  </p>
+  <h2><span class="mw-headline" id="mp">MAKERS PLACE <font size='3'><a href="#top">goto top</a></font></span></h2>
+  <p>We offer  our technical consultancy services and infrastructure for design and development of prototype  as makers space for young minders  
+
+  We offer our support in Design and prototype developments 
+  <ul>
+  <li>Mechanical detailing and drafting</li>
+  <li>Detailing of various components.Sub-systems and assemblies.Conforming to engineering specifications of varying levels of complexity in mechanical engineering. Focus on down stream activities such as production tooling and material cost etc.</li>
+  <li>Free hand sketches to2D/3D drawings. Help transfer product concepts from free hand sketches to drawing using engineering expertise that forms the input for development of an intelligent digital prototype</li>
+  </ul>
+  </p>
+</div>
+      </div>
+  </div>
+</div><!--/row-offcanvas -->
+    
+    
+   <script>
+
+//for togglebutton
+  $(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+});
+
+  // When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
