@@ -1,487 +1,178 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TEJAS TECH | SERVICES</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="TejasTech Company">
-    <meta name="keywords" content="webpage detailed">
-    <meta name="author" content="MKJ">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-<style>
-    header{
-      background:#6abce3;
-      color:#483d8b;
-      min-height:80px;
-      border-bottom:#483d8b 3px solid;
-      padding:12px;
-      text-align:left;
-     
-    }
-    body{
-      background-color: rgba(106,188,227,0.3);
-      
-      } 
-    p {
-      
-      padding:2%;
-    }
 
-    /* Add a black background color to the top navigation */
-.topnav {
-    background-color: rgba(255,255,255,0.8);
-    overflow: hidden;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="stylesheet/main_layout.css">
+    <link rel="stylesheet" href="stylesheet/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-/fQApCNOMk6DYBmE4QlLZaDgzT//0dwMyf5jzxFM4jMwrmuJf5eAeDF24p3qODS6iiicSxrjzHJaxYsHHgjV/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #808080;
-    text-align: center;
-    padding: 1.1% 2.1%;
-    text-decoration: none;
-    font-size: 19px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    
-    color: black;
-}
-
-
-
-/*SIDEBAR*/
-body,html,.row-offcanvas {
-  height:100%;
-}
-
-#sidebar {
-  width: inherit;
-  min-width: 200px;
-  max-width: 200px;
-  background-color:rgba(106,188,227,0.3);
-  float: left;
-  height:100%;
-  position:relative;
-  overflow-y:auto;
-  overflow-x:hidden;
-}
-#main {
-  height:100%;
-  overflow:auto;
-}
-
-/*
- * off Canvas sidebar
- * --------------------------------------------------
- */
-@media screen and (max-width: 768px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-    width:calc(100% + 220px);
-  }
-    
-  .row-offcanvas-left
-  {
-    left: -220px;
-  }
-
-  .row-offcanvas-left.active {
-    left: 0;
-  }
-
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-  }
-}
-.bold a {
-    float: left;
-    color: #0909090;
-    text-align: center;
-    padding: 1.1% 2.1%;
-    text-decoration: none;
-    font-size: 19px;
-    border-bottom-style: ridge;
-    border-color: #000000;
-}
-.bold a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  h1{
-      font-family: Georgia , serif;
-      font-style: italic;
-    }
-    li{
-      font-style: italic;
-    }
-    a{
-      font-family: Georgia , serif;
-    }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-      <div id="branding">
-          <h1><img src="logo.jpg" width="50" height="50" alt="logo" ><span class="highlight">TEJAS TECH</span></h1>
-    </div>  
+    <title>Tejas Tech</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <img src="images/logo.jpg" alt="logo" class="nav-logo-img" >
+            <a href="index.html" class="nav-logo">Tejas Tech</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+                <li class="nav-item active"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="products.html" class="nav-link">Product</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contacts</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
-    <div class="topnav">   <div class="header" id="myHeader"> <div class="container">
-      <a class="active" href="index.html"><img src="cncicon.png" width="40" height="40" alt="logos" />Linking ideas with Technology</a>
-      <a class="active" href="index.html">HOME</a>
-      <a  href="about.html">ABOUT US</a>
-      <a href="services.html">SERVICES</a>
-      <a href="products.html">PRODUCTS</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    </div>
-    </div>
-</div><!--/row-offcanvas -->
-
-  <div class="row-offcanvas row-offcanvas-left">
-    <div id="sidebar" class="sidebar-offcanvas">
-      <div class="bold">
-        <div class="col-md-12">
-          <h3 style="color:#483d8b"><center>MENU</center></h3>
-            <ul class="nav nav-tabs" role="tablist">
-              
-              <li><a class="nav-link active" data-toggle="tab" href="#home"></a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#pm">PRECISION MACHINING </a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#pa">PRECISION ASSEMBLIES</a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#pdgp">PROCESS DEVELOPMENTS & GENERATION OF PROCESS SHEETS</a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#ddp">DESIGN AND DEVELOPMENTS OF PRODUCTS </a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#tcs">TECHNICAL CONSULTANCY SERVICES </a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#pd3p">PROTOTYPE DEVELOPMENT & 3D PRINTING </a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#hr">HUMAN RESOURCES / MAN POWER PLACEMENTS </a></li>
-              <li class="nav-item" ><a class="nav-link" data-toggle="tab" href="#mp"> MAKERS PLACE </a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div id="main">
-        <div class="col-md-12">
-          <p class="visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas" style="background-color:#FFFFAA" ><i class="glyphicon glyphicon-chevron-left" style="color:#4444FF">Click here for more</i></button>
-          </p>
-          <div class="tab-content">
-            <div id="home" class="container tab-pane active">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="cms1.jpg">
-                      <img src="cms1.jpg" alt="cig1" style="width:100%;">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="as1.jpg">
-                      <img src="as1.jpg" alt="der1" style="width:100%;"">
-                    
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="cms2.jpg">
-                      <img src="cms2.jpg" alt="der1" style="width:100%;"">
-                    
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="cms3.jpg">
-                      <img src="cms3.jpg" alt="der2" style="width:100%;">
-                     
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="cms4.jpg">
-                      <img src="cms4.jpg" alt="cig1" style="width:100%;">
-                      
-                    </a>
-                  </div>
-                </div>
-                
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="as2.jpg">
-                      <img src="as2.jpg" alt="der2" style="width:100%;">
-                     
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="img1.jpg">
-                      <img src="img1.jpg" alt="cig1" style="width:100%;">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="img2.jpg">
-                      <img src="img2.jpg" alt="der1" style="width:100%;"">
-                    
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="img3.jpg">
-                      <img src="img3.jpg" alt="der2" style="width:100%;">
-                     
-                    </a>
-                  </div>
-                </div>
-              </div>
-
+    <div class="content">
+        
+        <div class="services-container">
+            <h1>SERVICES PROVIDED BY TEJAS TECH: </h1>
+            <div class="service">
+                <h3>Precision Machining <span class="icon-container">&#43;</span></h3>
+                <div class="service-details"><hr>
+                    <p>Tejas Tech has a well-equipped machine shop with adequate accessories, Manned by well-experienced engineers and technicians to meet entire range of precision jobs and also acts as a liaison with many other industries to manufacture parts as per customer's specifications</p>
+                    <br>
+                    <img src="images/service1.png" alt="precisionService" class="serv1-img">
+                    <div class="shadow">
+                        <img class="mySlides" src="./images/cms1.jpg">
+                        <img class="mySlides" src="./images/cms2.jpg">
+                        <img class="mySlides" src="./images/img1.jpg">
+                        <img class="mySlides" src="./images/cms3.jpg">
+                        <img class="mySlides" src="./images/cms4.jpg">
+                        <img class="mySlides" src="./images/img2.jpg">
+                        <img class="mySlides" src="./images/img3.jpg">
+                    </div>
+                    <script type="text/javascript">
+                        var slideIndex = 0;
+                        carousel();
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > x.length) {
+                                slideIndex = 1;
+                            }
+                            x[slideIndex - 1].style.display = "block";
+                            setTimeout(carousel, 3000); // Change image every 10 seconds
+                        }
+                    </script>
+                <hr></div>
             </div>
 
-            <div id="pm" class=" container tab-pane fade ">
+            <div class="service">
+                <h3>Precision Assemblies <span class="icon-container">&#43;</span></h3>
+                <div class="service-details"><hr>
+                    <p>We offer our services in assembly of detailed components to products, carry out stage inspection, check the functionality and packing as per customers requirements </p>
+                    <br>
+                    <div class="shadow">
+                        <img class="mySlides2" src="./images/as1.jpg">
+                        <img class="mySlides2" src="./images/as2.jpg">
+                    </div>
+                    <script type="text/javascript">
+                        var slideIndex = 0;
+                        carousel();
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides2");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > x.length) {
+                                slideIndex = 1;
+                            }
+                            x[slideIndex - 1].style.display = "block";
+                            setTimeout(carousel, 3000); // Change image every 10 seconds
+                        }
+                    </script>
+                <hr></div>
+            </div>
 
-            <h2><span class="mw-headline" >PRECISION MACHINING<font size='3'></font></span></h2>
-  <p>Tejas Tech has a well-equipped machine shop with adequate accessories, Manned by well-experienced engineers and technicians to meet entire range of precision jobs and also acts as a liaison with many other industries to manufacture parts as per customer's specifications 
-  <table>
-    <tr>
-      <th>LIST OF Machineries</th>
-      <th></th>
-    </tr>
-   <tr>
-      <td>CNC SHOP</td>
-      <td>CNC Lathe  Machine <br>
-        CNC Milling Machine  <br>
-        3 D printer  </td>
-    </tr>
-    
-    <tr>
-      <td>CONVENTIONAL SHOP</td>
-      <td>Lathe  Machine <br>
-        Milling Machine  <br>
-        Drilling  Machine  <br>
-        Cutting  Machine  <br>
-        Buffing  Machine  <br>
-        Matte finishing  Machine  <br>
-        Welding  Machine  
-        </td>
-    </tr>
-    <tr>
-      <td>OTHER UNDERTAKINGS</td>
-      <td>Surface treatment like anodizing plating etc <br>
-        TIG & MIG Welding <br>
-        Sheet metal fabrication  <br>
-        Non conventional machining 
-        </td>
-        
-    </tr>
-  </table>
-  <table>
-    <tr>
-      <th>LIST OF  Measuring Instruments </th>
-      
-      
-    
-    </tr>
-    <tr>
-      
-      <td>Profile Projector <br>
-        Surface Table <br>
-        Height Gauge  <br>
-        Vernier Callipers <br>
-        Micrometers <br>
-        Bore Gauges  
-        </td>
-        
-    </tr>
-    
-  </table>
-
-    <div class="row">
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="cms1.jpg">
-                      <img src="cms1.jpg" style="width:100%;height: 50%">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="cms2.jpg">
-                      <img src="cms2.jpg"  style="width:100%;height: 50%">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="img1.jpg">
-                      <img src="img1.jpg" style="width:100%;height: 50%">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="thumbnail">
-                    <a href="cms3.jpg">
-                      <img src="cms3.jpg" style="width:100%;height: 50%">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="thumbnail">
-                    <a href="cms4.jpg">
-                      <img src="cms4.jpg" style="width:100%;height: 50%">
-                      
-                    </a>
-                  </div>
-                </div>
-                
-                <div class="col-md-3">
-                  <div class="thumbnail">
-                    <a href="img2.jpg">
-                      <img src="img2.jpg" style="width:100%;height: 50%">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="thumbnail">
-                    <a href="img3.jpg">
-                      <img src="img3.jpg" style="width:100%;height: 50%">
-                      
-                    </a>
-                  </div>
-                </div>
+            <div class="service">
+                <p>
+                <h3>Development and Generation of Process Sheets <span class="icon-container">&#43;</span> </h3>
+                <div class="service-details"><hr>
+                  <ul>Our vast industry experience comes to your aid to perform preliminary and detailed design reviews. Our design consultancy services include:
+                    <li>Use of industry experience in tool engineering to provide services for design of tool, jig and fixture</li>
+                    <li>Process sheets for manufacturing and assembly - Generating process sheets for manufacturing of critical components.</li>                       
+                     <li>Exploded assembly sequence for catalog and product maintenance manuals - Generate explode view for assembly drawings incorporating 3D views, and surface models generated for BOM</li>
+                    <li>Ability to perform preliminary and detailed design reviews as per customer's requirements</li>
+                  </ul>
+                  <hr></div>
+                </p>
               </div>
-  </p></div> 
 
-  <div id="pa" class="container tab-pane fade">
-    <h2><span class="mw-headline" >PRECISION ASSEMBLIES<font size='3'></font></span></h2>
-    <p>We offer our services in assembly of detailed components to products, carry out stage inspection, check the functionality and packing as per customers requirements 
-
-    <div class="row">
-                <div class="col-md-5">
-                  <div class="thumbnail">
-                    <a href="as1.jpg">
-                      <img src="as1.jpg" style="width:100%;">
-                      
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-5">
-                  <div class="thumbnail">
-                    <a href="as2.jpg">
-                      <img src="as2.jpg"  style="width:100%;">
-                      
-                    </a>
-                  </div>
-                </div>
-                
+            <div class="service">
+                <h3>Design and Development of Products <span class="icon-container">&#43;</span></h3>
+                <div class="service-details"><hr>
+                  <p>Tejas Tech leverages significant engineering and design skills to offer a range of Design consultancy and product development services. Our highly skilled and dedicated team of professionals have notched up project experience of more than 200 engineering years. Coupled with strong links with senior industry professionals and effective employee resource management Tejas Tech is perfectly positioned to solve your design and prototype development problems.Our services are complemented by strict confidentiality and a keen sense of partnership in commitment plans of our customers</p>
+                 
+                  <hr></div>
               </div>
-    </p> 
-  </div> 
-  <div id="pdgp" class="container tab-pane fade">
-    <h2><span class="mw-headline" >PROCESS DEVELOPMENTS & GENERATION OF PROCESS SHEETS <font size='3'></font></span></h2>
-    <p>Our vast industry experience comes to your aid to perform preliminary and detailed design reviews. Our design consultancy services include: 
-    <ul>
-    <li>Use of industry experience in tool engineering to provide services for design of tool, jig and fixture </li>
-    <li>Process sheets for manufacturing and assembly - Generating process sheets for manufacturing of critical  components.</li>
-    <li>Exploded assembly sequence for catalog and product maintenance manuals - Generate explode view for assembly drawings incorporating 3D views, and surface models generated for BOM</li>
-    <li>Ability to perform preliminary and detailed design reviews as per customer's requirements</li>
-    </ul>
-    </p>
-  </div>
 
-  <div id="ddp" class=" container tab-pane fade ">
-    <h2><span class="mw-headline" >DESIGN AND DEVELOPMENTS OF PRODUCTS<font size='3'></font> </span></h2>
-    <p>Tejas Tech leverages significant engineering and design skills to offer a range of Design consultancy and product development  services. Our highly skilled and dedicated team of professionals have notched up project experience of more than 200 engineering years. Coupled with strong links with senior industry professionals and effective employee resource management Tejas Tech  is perfectly positioned to solve your design and prototype  development problems.Our services are complemented by strict confidentiality and a keen sense of partnership in commitment plans of our customers 
-    </p>
-  </div>
+              <div class="service">
+                <h3>Technical Consultancy Services <span class="icon-container">&#43;</span></h3>
+                <div class="service-details"><hr>
+                  <p>Tejas Tech extends design consultancy services that encompass value engineering exercises and fabrication and cost reduction reviews. We help to solve a wide variety of manufacturing problems that help to reduce product cost raise quality and add values</p>
+                  
+                  <hr></div>
+              </div>
 
-  <div id="tcs" class=" container tab-pane fade ">
-    <h2><span class="mw-headline" >TECHNICAL CONSULTANCY SERVICES<font size='3'></font></span></h2>
-    <p>Tejas Tech extends design consultancy services that encompass value engineering exercises and fabrication and cost reduction reviews. We help to solve a wide variety of manufacturing  problems that help to reduce product cost raise quality and add values 
-    </p>
-  </div>
-  <div id="pd3p" class=" container tab-pane fade ">
-    <h2><span class="mw-headline" >PROTOTYPE DEVELOPMENT & 3D PRINTING<font size='3'></font></span></h2>
-    <p>We offer 3D printing / rapid prototyping service to convert product designs  to reality in short time. It is very useful in checking assembly interference, concept proving and clarity for customers. Maximum size of the components is 300x300x300mm 
-    </p>
-  </div>
+              <div class="service">
+                <h3>Prototype Development and 3D Printing<span class="icon-container">&#43;</span></h3>
+                <div class="service-details"><hr>
+                  <p>We offer 3D printing / rapid prototyping service to convert product designs to reality in short time. It is very useful in checking assembly interference, concept proving and clarity for customers.<br>
+                    <strong> Maximum size of the components is 300x300x300mm</strong></p>
+                  <hr></div>
+              </div>
 
-  <div id="hr" class=" container tab-pane fade ">
-    <h2><span class="mw-headline" > HUMAN RESOURCES / MAN POWER PLACEMENTS<font size='3'></font> </span></h2>
-    <p>As part of our end-to-end offerings in the design and engineering space, we help to meet requirements for technical manpower. Our manpower consultancy is fuelled by the dedication to match the right person with the right job in a systematic manner 
-    </p>
-  </div>
+              <div class="service" >
+                <h3>Human Resources/Manpower Placements<span class="icon-container">&#43;</span></h3>
+                <div class="service-details"><hr>
+                  <p>As part of our end-to-end offerings in the design and engineering space, we help to meet requirements for technical manpower. Our manpower consultancy is fuelled by the dedication to match the right person with the right job in a systematic manner</p>
+                  <hr></div>
+              </div>
 
-  <div id="mp" class=" container tab-pane fade ">
-    <h2><span class="mw-headline">MAKERS PLACE <font size='3'></font></span></h2>
-    <p>We offer  our technical consultancy services and infrastructure for design and development of prototype  as makers space for young minders  
-
-    We offer our support in Design and prototype developments 
-    <ul>
-    <li>Mechanical detailing and drafting</li>
-    <li>Detailing of various components.Sub-systems and assemblies.Conforming to engineering specifications of varying levels of complexity in mechanical engineering. Focus on down stream activities such as production tooling and material cost etc.</li>
-    <li>Free hand sketches to2D/3D drawings. Help transfer product concepts from free hand sketches to drawing using engineering expertise that forms the input for development of an intelligent digital prototype</li>
-    </ul>
-    </p>
-  </div>
-</div>
- </div>
-      </div>
-  
-</div><!--/row-offcanvas -->
+              <div class="service">
+                <h3>Makers' Place <span class="icon-container">&#43;</span></h3>
+                <div class="service-details"><hr>
+                  <p>We offer  our technical consultancy services and infrastructure for design and development of prototype  as makers space for young minders  
+                    <br>
+                    We offer our support in Design and prototype developments for:  
+                    <ul>
+                    <li>Mechanical detailing and drafting</li>
+                    <li>Detailing of various components. Sub-systems and assemblies.Conforming to engineering specifications of varying levels of complexity in mechanical engineering. Focus on down stream activities such as production tooling and material cost etc.</li>
+                    <li>Free hand sketches to2D/3D drawings. Help transfer product concepts from free hand sketches to drawing using engineering expertise that forms the input for development of an intelligent digital prototype</li>
+                    </ul></p>
+                  <hr></div>
+              </div>
+          
+              
+            <!-- Repeat the above structure for other services -->
+          </div>
+          
+    </div>
+    <!--End of content-->
     
-    
-   <script>
-
-//for togglebutton
-  $(document).ready(function() {
-  $('[data-toggle=offcanvas]').click(function() {
-    $('.row-offcanvas').toggleClass('active');
-  });
-});
-
-  // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-
-  </script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-  </body>
+     <script src="js/main_layout.js"></script>
+     <script src="js/services.js"></script>
+     <footer>
+        <div class="container">
+            <p>© Tejas Tech. All rights reserved.</p>
+                <h6>Website developed by <a href="https://manishajohnson.github.io/">ManishaJohnson</a></h6>
+        </div>
+    </footer>
+</body>
 </html>
+
+
