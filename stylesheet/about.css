@@ -1,0 +1,50 @@
+/* Align background to the center of page */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline {
+    position: relative;
+    width: 400px; /* Adjust the width as per your preference */
+    margin-bottom: 30px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3d608b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .timeline-content {
+    background-color: #e7e7e7;
+    opacity: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+@media screen and (max-width: 600px){
+    .timeline {
+        position: relative;
+        width: 300px; /* Adjust the width as per your preference */
+      }
+}
+  
