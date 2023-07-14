@@ -11,14 +11,18 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
     }
     
     .content h3 {
-    font-size: 18px;
-    text-align: center;
-    color: #3d608b;
-    margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 18px;
+      color: #3d608b;
+      margin-top: 10px;
     }
+    
 
     .content h1 {
         font-size: 16px;
@@ -29,15 +33,26 @@
 
     .service {
     margin-bottom: 10px;
-    max-width: 800px; 
+    max-width: 700px; 
     }
+
+    .service-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .service-header h3 {
+      margin: 0;
+    }
+
 
     .service-details {
-    display: none;
+      display: none;
+      margin-top: 10px;
     }
-
     .service.expanded .service-details {
-    display: block;
+      display: block;
     }
 
     .serv1-img {
@@ -115,3 +130,4 @@ hr {
       }
       
   }
+  
