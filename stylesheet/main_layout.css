@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family:'Poppins',sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 body{
@@ -11,13 +11,6 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-
-body {
-    background-image: url("/images/bg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
   
 
 .content {
@@ -91,16 +84,16 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #EFEFEF;
+    background-color: lightblue;
 }
 
 .active .bar {
-    background-color: lightblue ;
+    background-color: #e7e7e7 ;
   }
 
 footer {
-    background-color: #30608b;
-    color: #E7E7E7;
+    background-color: #213159;
+    color: lightblue;
     margin-top: 20px;
     padding: 20px;
     text-align: center;
@@ -108,7 +101,7 @@ footer {
 }
 
 footer a{
-    color: #E7E7E7;
+    color: lightcyan;
 }
 
 footer a:hover {
