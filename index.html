@@ -1,119 +1,139 @@
+<!DOCTYPE html>
 <html>
-	<head>		
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="TejasTech Company">
-		<meta name="keywords" content="webpage detailed">
-		<meta name="author" content="MKJ">
-		<title >TEJAS TECH | WELCOME</title>
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		
-		<style type="text/css">
-		header{
-			background:#6abce3;
-			color:#483d8b;
-			
-			min-height:80px;
-			border-bottom:#483d8b 3px solid;
-			padding:10px;
-			
-		}
-		body{
-			background-color: rgba(106,188,227,0.3);
-			
-			}	
-		p {
-			
-			padding:2%;
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="stylesheet/main_layout.css">
+
+    <title>Tejas Tech</title>
+    <style>
+        .mySlides{
+		width: 75%; 
+		align-items: middle;
+		height:75%;
+		margin-left:12%;
+		max-width: 100%;
+		height: auto;
 		}
 
-		.mySlides{
-			width: 75%; 
-			align: middle;
-			height:75%;
-			margin-left:12%;
-			max-width: 100%;
-			height: auto;
-		}
-		h1{
-			font-family: Georgia , serif;
-			font-style: italic;
-		}
-		a{
-      		font-family: Georgia , serif;
-    	}
-		</style>
-	</head>
+        .text-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        }
 
-	<body>
-		<header>
-		<div class="container">
-			<div id="branding">
-					<h1><img src="logo.jpg" width="50" height="50" alt="logo" ><span class="highlight">TEJAS TECH</span></h1>
-		</div>	
-		</header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container">
-			<a class="navbar-brand" href="index.html"><img src="cncicon.png" width="40" height="40" alt="logos" >Linking ideas with Technology</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
+        .text-container h3 {
+        font-size: 18px;
+        text-align: center;
+        color: #3d608b;
+        margin-top: 10px;
+        }
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-				  <li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="about.html">ABOUT US</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="services.html">SERVICES</a>
-				  </li>
-				  
-				  <li class="nav-item">
-					<a class="nav-link" href="products.html">PRODUCTS</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="contact.html">Contacts</a>
-				  </li>
-				</ul>
-			</div>
-		</div>
-		</nav>
-	
-		
-		<div class="shadow">
-		<img class="mySlides" src="cnc.jpg"  >
-        <img class="mySlides" src="cc.jpg">
-		</div>
-		<script type="text/javascript">
-		var slideIndex = 0;
-        carousel();
+        .text-container h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+        color: #213158;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        }
 
-		function carousel() {
-		var i;
-		var x = document.getElementsByClassName("mySlides");
-		for (i = 0; i < x.length; i++) {
-			x[i].style.display = "none"; 
-		}
-		slideIndex++;
-		if (slideIndex > x.length) {slideIndex = 1} 
-		x[slideIndex-1].style.display = "block"; 
-		setTimeout(carousel, 10000); // Change image every 10 seconds
-		}
-		</script>
-		<br>
-		<div class="container">
-		<p>
-		Tejas Tech offers a range of design and engineering services, besides extending precision machining  services. On the products front, we offer products that have been designed and built in-house as well as providing technical support to product development. Specific services offered include design and development of products, precision machining, engineering consultancy and CAD services, supply of skilled manpower etc. We focus on delivering reliable solutions and services while striving to constantly improve service levels. Our manpower division helps you achieve employee resource management. </p></div>
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	  
-	</body>
+        .text-container p {
+        font-size: 14px;
+        margin: 0 10%;
+        text-align: center;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        }
 
+        /* Horizontal line styles */
+        hr {
+        border: none;
+        border-top: 2px solid #213158;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 600px;
+        }
+        /*======= media queries (SMALL DEVICES)=======*/
+        @media screen and (max-width: 600px){
+            hr {
+            overflow: hidden;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <img src="images/logo.jpg" alt="logo" class="nav-logo-img" >
+            <a href="index.html" class="nav-logo">Tejas Tech</a>
+            <ul class="nav-menu">
+                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="products.html" class="nav-link">Product</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contacts</a></li>
+                
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="shadow">
+            <img class="mySlides" src="./images/cnc.jpg" >
+            <img class="mySlides" src="./images/cc.jpg">
+        </div>
+        
+        <script type="text/javascript">
+            var slideIndex = 0;
+            carousel();
+    
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {
+                    slideIndex = 1;
+                } 
+                x[slideIndex-1].style.display = "block"; 
+                setTimeout(carousel, 10000); // Change image every 10 seconds
+            }
+        </script>
+        <hr>
+        <div class="text-container">
+            <h3>Linking ideas with Technology</h3>
+            <h1>We focus on delivering reliable solutions and services while striving to constantly improve service levels.</h1>
+            <hr>
+            <p>
+                Tejas Tech offers a range of design and engineering services, besides extending precision machining  services. On the products front, we offer products that have been designed and built in-house as well as providing technical support to product development. Specific services offered include design and development of products, precision machining, engineering consultancy and CAD services, supply of skilled manpower etc. Our manpower division helps you achieve employee resource management.
+            </p>
+        </div>
+      </div>
+    
+     <script src="js/main_layout.js"></script>
+
+     <footer>
+        <div class="container">
+            <p>© Tejas Tech. All rights reserved.</p>
+                <h6>Website developed by <a href="https://manishajohnson.github.io/">ManishaJohnson</a></h6>
+        </div>
+    </footer>
+</body>
 </html>
+
+
